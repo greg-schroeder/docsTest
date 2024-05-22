@@ -1,7 +1,7 @@
 ---
 name: AM Account Review
 description: Account Review template for AMs
-title: Account Review for domain.com
+title: "Account Review for domain.com"
 labels:
   - Monthly
   - Task
