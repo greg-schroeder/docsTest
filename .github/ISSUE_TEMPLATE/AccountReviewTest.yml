@@ -124,18 +124,18 @@ body:
   - type: checkboxes
     id: creditcard
     attributes:
-      label: "Which credit card connections is the customer using?"
+      label: "Which type of credit card connection does the customer use?"
       description: Check all items that apply to this customer. 
       options:
-        - label: "Using Expensify Card"
+        - label: "Expensify Card"
           required: false
-        - label: "Using Corporate Card Feed (VCF/CDF/GL1025/Custom Citi etc)"
+        - label: "Corporate Card Feed - VCF/CDF/GL1025/Custom Citi, etc."
           required: false
-        - label: "Using Direct Connection Cards (Amex/Chase/BofA etc)"
+        - label: "Direct Connection Cards - Amex/Chase/BofA, etc.
           required: false
-        - label: "Using Company Card CSV upload"
+        - label: "Company Card CSV upload"
           required: false
-        - label: "Using individual Cards per employee Account > Credit Card Import"
+        - label: "Individual Cards added via each employee's individual account"
           required: false
   - type: textarea
     id: cardnotes
