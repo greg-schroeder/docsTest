@@ -129,13 +129,13 @@ body:
       options:
         - label: "Expensify Card"
           required: false
-        - label: "Corporate Card Feed - VCF/CDF/GL1025/Custom Citi, etc."
+        - label: "Commercial Card Feed"
           required: false    
-        - label: "Direct Connection Cards - Amex/Chase/BofA, etc."
+        - label: "Direct Connection"
           required: false
         - label: "Company Card CSV upload"
           required: false
-        - label: "Individual Cards added via each employee's individual account"
+        - label: "Individual Cards added via employee accounts"
           required: false
   - type: textarea
     id: cardnotes
