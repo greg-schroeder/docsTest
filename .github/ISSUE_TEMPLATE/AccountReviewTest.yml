@@ -120,11 +120,11 @@ body:
       required: true
   - type: markdown
     attributes:
-      value: "# Credit Cards"
+      value: "# Connected Cards"
   - type: checkboxes
     id: creditcard
     attributes:
-      label: "Which type of credit card connection does the customer use?"
+      label: "Which type of card connection does the customer use?"
       description: Check all items that apply to this customer. 
       options:
         - label: "Expensify Card"
@@ -140,8 +140,8 @@ body:
   - type: textarea
     id: cardnotes
     attributes:
-      label: "Additional notes on credit cards"
-      description: If there are any additional notes you want to share about the customer credit card setup, add them here.
+      label: "Additional notes on cards"
+      description: If there are any additional notes you want to share about the customer card setup, add them here.
     validations:
       required: false   
   - type: markdown
