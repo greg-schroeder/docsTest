@@ -20,7 +20,7 @@ body:
   - type: checkboxes
     id: purpose
     attributes:
-      label: Which of the following retention-oriented actions did call support:
+      label: Which of the following retention-oriented actions did call support
       description: Check all items that applied to this call.
       options:
         - label: Promoted general customer retention
@@ -49,7 +49,7 @@ body:
   - type: checkboxes
     id: subscription
     attributes:
-      label: Subcription information:
+      label: Subcription information
       description: Check all items that apply to this customer.
       options:
         - label: Annual Subscription 
@@ -61,7 +61,7 @@ body:
   - type: input
     id: numactive
     attributes:
-      label: Number of active users on most recent bill:
+      label: Number of active users on most recent bill
       description:  
       placeholder: "19"
     validations:
@@ -69,7 +69,7 @@ body:
   - type: input
     id: numcommitted
     attributes:
-      label:  Number of users their subscription is set for:
+      label:  Number of users their subscription is set for
       description: Leave this blank if they are on PPU 
       placeholder: "12"
     validations:
@@ -77,7 +77,7 @@ body:
   - type: input
     id: endDate
     attributes:
-      label: Contract/Subscription End Date:
+      label: Contract/Subscription End Date
       description: What date does their contract end? Leave this blank if they are on PPU.
       placeholder: "March 1, 2025"
     validations:
@@ -85,7 +85,7 @@ body:
   - type: input
     id: trajectory
     attributes:
-      label: Usage trajectory:
+      label: Usage trajectory
       description: Look at their number of active users over the past 6 months. Is it increasing, constant, or declining?
       placeholder: "increasing"
     validations:
@@ -93,7 +93,7 @@ body:
   - type: textarea
     id: subnotes
     attributes:
-      label: Additional notes on subscription: 
+      label: Additional notes on subscription
       description: If there are any additional notes you want to share about this customer's billing setup, add them here.
       placeholder: "They recently enabled auto-renew"
     validations:
@@ -104,7 +104,7 @@ body:
   - type: checkboxes
     id: configuration
     attributes:
-      label: Workspace Configuration: 
+      label: Workspace Configuration
       description: Check all items that apply to this customer. 
       options:
         - label: Scheduled Submit enabled 
@@ -127,7 +127,7 @@ body:
     required: true
   - type: markdown
     attributes:
-      value: "# Credit Cards "
+      value: "# Credit Cards"
   - type: checkboxes
     id: creditcard
     attributes:
@@ -147,7 +147,7 @@ body:
   - type: textarea
     id: cardnotes
     attributes:
-      label: Additional notes on credit cards:
+      label: Additional notes on credit cards
       description: "If there are any additional notes you want to share about this customer's credit card setup, add them here."
       placeholder: "They recently enabled the Expensify Card"
     validations:
@@ -174,7 +174,6 @@ body:
     attributes:
       label: Concierge and GH history:
       description: Review the past 6 months of chats and GH history from the policy owner/admins to see if there have been any issues or problems reported and gauge sentiment. Link each item below with a short description and status.
-      placeholder: 
     validations:
       required: true
   - type: markdown
@@ -194,7 +193,7 @@ body:
   - type: textarea
     id: followup
     attributes:
-      label: Add a description of the followup steps you will take after this call:
+      label: Add a description of the followup steps you will take after this call
       description: Explain each followup step you intend to take, and what you plan to include in the followup message. 
       placeholder: 
     validations:
@@ -202,7 +201,7 @@ body:
   - type: checkboxes
     id: confirmations
     attributes:
-      label: Confirm you have completed all followup steps for this Account Review:
+      label: Confirm you have completed all followup steps for this Account Review
       description: Check off each item as it is completed. All items must be completed in order for the call to count for incentives.
       options: 
         - label: The Account Review GH was created and the template fully completed before the call took place, with at least one item listed the Potential Opportunities section 
@@ -216,7 +215,7 @@ body:
   - type: checkboxes
     id: screenshots
     attributes:
-      label: Confirm you have added all required screenshots/links as a comment to this issue:
+      label: Confirm you have added all required screenshots/links as a comment to this issue
       description: Check off each item as it is completed. All items must be completed in order for the call to count for incentives.
       options: 
         - label: Screenshot of the call calendar invite showing call date, time and attendees 
@@ -230,7 +229,7 @@ body:
   - type: textarea
     id: followupnotes
     attributes:
-      label: Additional notes on followup steps:
+      label: Additional notes on followup steps
       description: If there are any additional notes you want to share about the call followup, add them here.
       placeholder: 
     validations:
