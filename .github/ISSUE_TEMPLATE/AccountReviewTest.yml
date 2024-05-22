@@ -13,7 +13,7 @@ body:
     id: email
     attributes:
       label: Email of domain or workspace admin who requested the call
-      description: Who booked the call? Enter their email address here. 
+      description: Who booked the call? Enter their email address here.
       placeholder: "ex. hermione@hogwarts.com"
     validations:
       required: true
