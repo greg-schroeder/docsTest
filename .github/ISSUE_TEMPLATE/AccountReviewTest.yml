@@ -14,7 +14,7 @@ body:
     attributes:
       label: "Email of domain or workspace admin who requested the call"
       description: Who booked the call? Enter their email address here.
-      placeholder: ex: hermione@hogwarts.com
+      placeholder: hermione@hogwarts.com
     validations:
       required: true
   - type: checkboxes
