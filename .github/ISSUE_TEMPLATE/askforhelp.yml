@@ -33,9 +33,9 @@ body:
   - type: textarea
     id: policyIDs
     attributes:
-      label: Affected Policy IDs
-      description: List policies that are affected
-      placeholder: B6013AA349A14280, 11FB084582FBA666
+      label: Affected Workspace Names and IDs
+      description: List the names and IDs of the workspaces affected
+      placeholder: Flora's Flowers: 11FB084582FBA666
     validations:
       required: false
   - type: textarea
@@ -103,16 +103,6 @@ body:
         - Mobile iOS
     validations:
       required: true
-  - type: textarea
-    id: logs
-    attributes:
-      label: Relevant log output
-      description: If applicable, include a link to a [relevant
-        LogSearch](https://stackoverflowteams.com/c/expensify/questions/4856)
-        here.
-      render: shell
-    validations:
-      required: false
   - type: textarea
     id: additionalNotes
     attributes:
@@ -196,30 +186,3 @@ body:
         explanation here
     validations:
       required: false
-  - type: checkboxes
-    id: sufficientCheck
-    attributes:
-      label: Is this GitHub sufficient?
-      description: "Please review the
-        [StackOverflow](https://stackoverflowteams.com/c/expensify/questions/15\
-        675) on our best practices and confirm your GitHub meets the following
-        expectations:"
-      options:
-        - label: Information in the GitHub - All necessary/relevant information is
-            included in the GH. The reviewer (Concierge Team member) does not
-            need to reference the chat to gather additional information to
-            resolve the customer issue.
-          required: true
-        - label: Outlining the problem - You have outlined the problem and provided all of
-            the relevant information to solve it. You answered all of the
-            questions under 'Outline the Problem.'
-          required: true
-        - label: Evidence of research - You linked all relevant resources, Slack convos,
-            GHs, StackOverflows, ZingTree Nodes, and Community articles, but
-            based on the complexity of the customer issue, the GH still needed
-            to be created.
-          required: true
-        - label: Completing the conversation before/after asking for help - You've
-            answered all of the customer's questions (not related to the
-            customer issue outlined in the GH)
-          required: true
