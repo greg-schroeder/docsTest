@@ -35,7 +35,7 @@ body:
     attributes:
       label: Affected Workspace Names and IDs
       description: List the names and IDs of the workspaces affected
-      placeholder: Flora's Flowers: 11FB084582FBA666
+      placeholder: Floras Flowers - 11FB084582FBA666
     validations:
       required: false
   - type: textarea
